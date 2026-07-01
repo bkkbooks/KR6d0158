@@ -1,0 +1,68 @@
+canonical_identifier: bkk:krp/KR6d0158/v1
+canonical_location: https://kanripo.org/bkk/KR6d0158/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 十不二門指要鈔
+  identifiers:
+    alt_id:
+    - T46n1928
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T46/T46n1928.xml
+    old_id: T46n1928
+  edition:
+    short: bkk
+editions:
+- short: 甲
+  label: 甲
+  source_xml_id: wit1
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6d0158_000.yaml, hash: 'sha256:43fcebfe9667aef523803d3fab0558cd2104ae380db22493b5fdd9748a3c40dc'}
+  - {seq: 1, filename: KR6d0158_001.yaml, hash: 'sha256:910966d0fdbb540d3aa5b90e1419bc76747a420c4ff9abd8b43d52c2eed2864b'}
+  - {seq: 2, filename: KR6d0158_002.yaml, hash: 'sha256:cd8127155c79ca231282ddbc7f58bc10a411af8be8bc7f650d5a683cf5020d50'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6d0158_000.markers.yaml, hash: 'sha256:a2659d37508059f6c30944efeea34f6bc587fe8b50d2767c03d351776fc251fe'}
+  - {seq: 1, role: markers, filename: assets/KR6d0158_001.markers.yaml, hash: 'sha256:c274b479b950c32ceec200495aa7db2677b7afd0f8dc0e560a0811b0d3b6df4f'}
+  - {seq: 2, role: markers, filename: assets/KR6d0158_002.markers.yaml, hash: 'sha256:8b9f1f449dce74ea4a292f0de9f06f9f062082a773b339f1c4ded059b3f83108'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6d0158_T_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: 指要鈔序
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6d0158_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 11594
+  label: 十不二門指要鈔卷上
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6d0158_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 10159
+  label: 十不二門指要鈔卷下
+  type: juan
+  level: 1
+hash: sha256:a1a9843c4749917a3e72abf164b9f3dedd408340d5baa86f427c95f6ebace791
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
