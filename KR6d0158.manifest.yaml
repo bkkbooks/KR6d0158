@@ -24,11 +24,11 @@ editions:
 - short: T
 assets:
   parts:
-  - {seq: 0, filename: KR6d0158_000.yaml, hash: 'sha256:43fcebfe9667aef523803d3fab0558cd2104ae380db22493b5fdd9748a3c40dc'}
+  - {seq: 0, filename: KR6d0158_000.yaml, hash: 'sha256:32c9f601bbd0000b5b96ffce64e1204c7df89a5644a7e58f8baf647653a21cb1'}
   - {seq: 1, filename: KR6d0158_001.yaml, hash: 'sha256:67c200ead3770914230a16251c8b0732c0431077e2ac9aeae9b99f419166dd0c'}
   - {seq: 2, filename: KR6d0158_002.yaml, hash: 'sha256:5341792e2d2300dac34b21a9d425a422dc4669dd00405c112fbc3555fdde48ca'}
   markers:
-  - {seq: 0, role: markers, filename: assets/KR6d0158_000.markers.yaml, hash: 'sha256:0191b7fc65a45ad798eaa58f06723f94c8d95d5e4a66d6b72eface56c1ac6959'}
+  - {seq: 0, role: markers, filename: assets/KR6d0158_000.markers.yaml, hash: 'sha256:eb75bddf0f397cbe8446bfce4800e89068747275b6c6b87d1c843b755ab544ae'}
   - {seq: 1, role: markers, filename: assets/KR6d0158_001.markers.yaml, hash: 'sha256:feeaa8a1d0f10fa371095397011980827bd7b26453cfc1c09c8eb1a51816b59e'}
   - {seq: 2, role: markers, filename: assets/KR6d0158_002.markers.yaml, hash: 'sha256:ee66ebb0b239fa3c9426fab6f74b7058fcaac044a922070074cf0bc906d86c8b'}
 table_of_contents:
@@ -36,7 +36,7 @@ table_of_contents:
     seq: 0
     marker_id: KR6d0158_T_000-mulu-1
     span:
-    - front
+    - body
     - 0
     - 0
   label: 指要鈔序
@@ -62,7 +62,7 @@ table_of_contents:
   label: 十不二門指要鈔卷下
   type: juan
   level: 1
-hash: sha256:cc0212e2f902b8675ab2fec08a70d0e386345683d448c8265c99c6be7a69c6b0
+hash: sha256:bdfe47d2b40138ed91f518f8ec5540921044335f6bdcd0c1d0d91604e564666c
 mappings:
 - canonical_identifier: bkk:mapping/variant-fold-v1
   hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
